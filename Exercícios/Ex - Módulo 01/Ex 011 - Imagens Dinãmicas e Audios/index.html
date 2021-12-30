@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+    
+    <h1>Reproduzindo Áudios</h1>
+    <p>
+        Vamos aprender como reproduzir Áudio em um Site
+    </p>
+    <p>
+        Usando a Tag: &lt;audio&gt;
+    </p>
+    <audio src="midias/happy-mistake.mp3" controls></audio>
+    <!-- MP3 WAV OGG -->
+    <p>
+        Usando a Tag: &lt;audio&gt; (com Tags &lt;source&gt; dentro)
+    </p>
+
+    <audio controls preload="metadata" loop>
+        <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midias/guanacast-33.ogg" type="audio/oggg">
+        <source src="midias/guanacast-33.wav" type="audio/wav">
+        <p>
+            Infelizmente seu navegador não pode reproduzir o áudio. <a href="midias/guanacast-33.mp3", download="midias/guanacast-33.mp3", type="audio/mpeg">Clique aqui para baixar o áudio</a>
+        </p>
+    </audio>
+</body>
+</html>

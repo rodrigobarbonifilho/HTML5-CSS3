@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Images Dinâmicas</h1>
+    <p>
+        Esta vendo está imagem? Inteira? Acho que não experimente diminuit o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1210px)" srcset="images/paisagem-m.png" type="image/png">
+        <img src="images/paisagem-g.jpg" alt="Imagem Flexivel">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Adendo */
+/*
+    HTML tem id = CSS tem #   (Só pode um elemento com id)
+    HTML tem class = CSS tem .(Pode usar vários)
+*/
+
+body {
+    background-color: rgb(180, 224, 114);
+    font: normal normal 16px Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(44, 70, 4);
+    text-shadow: rgba(0, 0, 0, 0.267) 1px 1px 0.3px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 196, 52);
+    text-shadow: rgba(0, 0, 0, 0.267) 1px 1px 0.3px;
+}
+
+h1#main {
+    margin: auto;
+    font: normal bolder 32px Arial, Helvetica, sans-serif;
+    color: rgb(133, 190, 46);
+    text-align: center;
+    background-color: green;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.247) 2px 2px 1px 1px;
+}
+
+.basico {
+    color: rgb(113, 161, 40);
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: rgb(247, 46, 46);
+}
+
+.destaque {
+    text-decoration: underline;
+    font-weight: bold;
+}

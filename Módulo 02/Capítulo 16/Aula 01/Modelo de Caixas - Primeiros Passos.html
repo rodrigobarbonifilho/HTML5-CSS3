@@ -1,0 +1,66 @@
+<!-- Box Model -->
+<!-- 
+    Nesta aula aprenderemos sobre como começar a usar o mod
+elo de caixas
+-->
+
+<!-- Modelo de Caixas -->
+<!--
+    É um modele que consiste em ter um padrão para desenvolvimento de 
+designs, onde podemos colocar uma caixa dentro de caixa e assim por diante damos o nome à isso de Aninhamento.
+    Vamos usar um exemplo:
+        Código:
+            <h1>Olá, Mundo!</h1>
+        Saída:
+            Olá, Mundo
+    A caixa do h1 é exatamente a área que o conteúdo de h1 ocupa, então
+quando usamos um seletor para a tag h1 na CSS, estamos na verdade alterando a caixa do conteúdo da tag h1 no site.
+    Propriedades de uma caixa:
+        Size:
+            Uma caixa tem um tamanho que é medido em:
+                • Height;
+                • Width;
+            Que podemos traduzir como Altura e Largura.
+        Border:
+            Nós podemos também traçar uma linha em volta de uma caixa e chamamos isso de:
+                • Border;
+            Que podemos traduzir como Borda
+        Padding:
+                Normalmente a borda é literalmente colada com o conteúdo da Box, pois o mesmo, é o que define o seu tamamho. Mas podemos dar um 
+            espaço entre a borda e a box e esse espaço é chamado de:
+                • Padding;
+            Que podemos traduzir como acolchoamento ou preenchimento.
+        Margin:
+            Além do espaço interno que temos no box, podemos definir um tamanho externo, uma barreira da box, que é chamada de:
+                • Margin;
+                Porque se não definirmos o tamanho da Margin e colocarmos outro elemento logo abaixo deste elemento, eles ficarão grudados, 
+            para isso usamos a margin.
+            Que podemos traduzir como Margem.
+        Outline:
+            Podemos também traçar uma linha em volta da borda, do lado da margin, e chamamos isso de:
+                • Outline;
+            Que pode ser traduzido como Tracejado ou Contorno.
+    Tipos de Caixas:
+        Box-level:
+            São caixas que, ocupam o espaço total do viewport em largura, e além disso, quando definidas sempre irão aparecer numa nova linha.
+        Inline-Level:
+                Sõa caixas que, ocupam apenas o tamanho do conteúdo presente na caixa, e quando definidas não quebram linha, mas, continuam na 
+            frente da tag anterior.
+        Algumas Tags:
+            +----------------------------------+
+            |   Box-level   |   Inline-level   |
+            +----------------------------------+
+            |  <div>        | <span>           |
+            |  <h1>-<h6>    | <a>              |
+            |  <p>          | <code>           |
+            |  <main>       | <smal>           |
+            |  <header>     | <strong>         |
+            |  <nav>        | <em>             |
+            |  <article>    | <sup>-<sub>      |
+            |  <aside>      | <label>          |
+            |  <footer>     | <button>         |
+            |  <form>       | <input>          |
+            |  <video>      | <select>         |
+            +----------------------------------+
+    Todo elemento vísivel na tela é um elemento de caixa.
+-->

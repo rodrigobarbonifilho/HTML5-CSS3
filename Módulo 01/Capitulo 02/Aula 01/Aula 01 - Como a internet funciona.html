@@ -1,0 +1,100 @@
+<!-- Como a internet Funciona -->
+
+<!-- Conceitos -->
+
+<!-- Representação de Dados -->
+
+<!--
+    O computador é um equipamento eletronico e como todo equipamento eletronico ele precisa de sinais
+e esses sinais são 0 e 1 (Código Binário). Na verdade são frequencias de rádio para o roteado po-
+der entender o que está sendo recebido e poder retornar algo, mas, esse 0 e 1 são chamados de bi-
+nary digit ou simplificando um pouco bit (binary digit translate to portuguese is Digito Binário)
+    O celular por exemplo também funciona com 0's e 1's mas vamos conconrdar que com 0 e 1 não é pos-
+sível representas muita coisa né vamos ser francos, então para se representar um dado é necessário a
+formação de 8 bits que são chamados de 1 byte (8 bit's = 1 byte):
+    Ex:        bit
+                |
+        0 1 0 0 0 0 0 1
+        |               |
+        ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                |
+                byte
+    Um byte é uma sequencia minima de bit's para poder representas alguma informção, por exemplo o byte
+acima 01000001 equivale a letra A, quando você aperta a letra A no seu teclado o que o teclado manda pa-
+ra o computados não é a letra A em si, e sim este byte, então o computador pela tabela Código multibyte
+UTF-8 transforma o byte informado na letra correspondente que no nosso caso é a letra A (Maiúscula).
+    E como muitas outras medidas temos os multiplos dessa medida:
+        Ex:
+            Karaoke as 7 horas da manha doi cabeça e mente
+                    Km  hm  dam  m  dm  cm  mm
+    Com o byte temos sempre com referencia em 1024:
+        ==============================================
+                        8 bits = 1 byte
+        ==============================================
+        Quando temos 1024 bytes temos: 1 KB (KiloByte) 
+            Quando temos 1024 KB temos: 1 MB (MegaByte)
+            Quando temos 1024 MB temos: 1 GB (GigaByte)
+            Quando temos 1024 GB temos: 1 TB (TeraByte)
+            Quando temos 1024 TB temos: 1 PB (PetaByte)
+            Quando temos 1024 PB temos: 1 EX (ExaByte)
+            Quando temos 1024 EX temos: 1 ZB (ZetaByte)
+            Quando temos 1024 ZB temos: 1 YB (YotaByte)
+
+-->
+
+<!-- Como nos conectamos? h-->
+
+<!--
+    Quando acessamos o computados a internet chamamos nosso pc de cliente pois voce está usufruindo de um serviço
+que é a internet. Vamos usar de exemlo que nós queremos baixar uma imagem da internet então nos solicitamos a ima-
+gem para a internet entao pelo roteador é mandado uma solicitação e a internet devolve varios bits, mas, por ondas
+senoidais então o sinal da internet vem pela linha telefonica e o roteador faz a modulação e a demodulação que é:
+    Modulação   - conversão de ondas quadradas para ondas senoidais
+    Demodulação - conversão de ondas senoidais para ondas quadradas
+Entao MoDem (GateAway) é o aparalho que faz esta conversão (Mo de Modulation e Dem de Demodulation)
+-->
+
+<!-- Como acessamos servidores -->
+
+<!--
+    Por exemplo vamos supor que queremo acessar o instagram podemos dizer que ele esta na nuvem
+mas na computação nao e bem assim, o instagram é uma plataforma de informações que estao todas 
+guardadas em um servidor (ou conjunto de servidores que é o caso do Instagram).
+    Mas para o cliente poder acessar o servidor ele não o acessa pelo nome e sim pelo seu IP que
+no caso estaremos usando este 3.224.112.47 e o cliente ao acessar a internet tambem um IP para fa
+cilitar a comunicação entre o cliente e a maquina e vice-versa 152.249.34.204
+    Para o servidor acessar o cliente ou vice-versa utilizamos o DNS (Domain Name System ou Sistema de Nome de Dominio)
+ex: instagram.com é um dominio, quando voce digita instagram.com ele vai no dns e pega o IP correspondente ao nome
+instagram.com e devolve o IP e com esse ip o roteador pesquisa e retorna as informações do servidor com o IP 
+pesquisado 
+-->
+
+<!-- E as rotas? -->
+
+<!--
+    Geralmente pensamos que existem apenas um caminho para a informação solicitada mas
+vamos supor que existem tres rotas e a imagem esta vindo pela primeira, só que a primeira
+esta com muitos dados então a internet manda a solicitação por outra rota.
+-->
+
+<!-- Notas -->
+
+<!--
+    UTF-8 = "-É um sistema de codificação usado para representar com 8 bits (1 byte) qualquer caractere, seja ele
+    acentuado, maiusculo, minusculo, emoji, etc."
+
+    Ondas Quadradas = "-O computado so entende ondas que são enviadas atráves cdo bit, sendo ela uma onda verdadira
+    (1) ou Falsa (0)."
+
+    Por que 1024 bytes da um Kb? "-Por que na computação não é utilizado o sitema decimal de numeração e sim usado o 
+    sistema binário então eles têm como base 2¹⁰ = 1024"
+
+    MB != Mb = "- MB: MegaBytes | Mb: MegaBits
+    MB é geralmente para medidas: 
+        Ex:
+            'Comprei um PenDrive de 16 GB'
+
+    Mb é geralmente usado para velocidade de transmissão:
+        Ex:
+            'Minha internet e de 4 Mb'"
+-->            

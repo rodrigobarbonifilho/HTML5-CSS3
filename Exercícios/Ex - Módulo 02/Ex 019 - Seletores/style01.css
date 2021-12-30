@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+HTML tem id = CSS tem #
+HTML tem class = CSS tem .
+HTML 
+*/
+
+body {
+    background-color: rgb(206, 255, 133);
+    font: normal normal 16px Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(44, 70, 4);
+    text-shadow: rgba(0, 0, 0, 0.267) 1px 1px 0.3px;
+}
+
+h1#main {
+    margin: auto;
+    font: normal bolder 32px Arial, Helvetica, sans-serif;
+    color: rgb(133, 190, 46);
+    text-align: center;
+    background-color: green;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.247) 2px 2px 1px 1px;
+}
+
+h2 {
+    color: rgb(138, 196, 52);
+    text-shadow: rgba(0, 0, 0, 0.267) 1px 1px 0.3px;
+}

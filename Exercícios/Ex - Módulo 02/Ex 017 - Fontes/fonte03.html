@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: "Work Sans", Arial, Helvetica, sans-serif;
+            
+            /* Medidas */
+            font-size: 1.2em;
+            
+            /* Peso */
+            /* 
+            Deixar a letra mais grossa ou mais fina,
+            Para usarmos este recurso precisamos de uma fonte com várias famílias
+            */
+            font-weight: bolder;
+            /* Níveis */
+            /* lighter, normal, bold, bolder*/
+
+            font-style: italic;
+            /* Estilo: font-style */
+            /* 
+            Define se a fonte vai estar:
+                normal
+                italic
+            */
+
+            /* Adendo */
+            /* 
+            Não confundir weight com width ou height:
+            weight: Peso
+            width: Largura
+            height: Altura
+            */
+        }
+
+        h1 {
+            font: italic bolder 2.5em "Work Sans", sans-serif;
+            /* font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 2.5em;
+            font-style: italic; */
+
+            /* ShortHand: Font */
+            /*
+            Declarar em apenas uma linha todas as declarações acima usando o font:
+                Ordem:
+                    font: font-style -> font-weight -> font-size -> font-family;
+            */
+            text-decoration: underline black;
+            /* Decoração */
+            /*
+            Sublinha o texto
+            */
+        }
+        
+        h2 {
+            font: italic bolder 2em "Work Sans", sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia aspernatur, voluptates nesciunt voluptatum cupiditate molestias quis dolorem recusandae quia? Consectetur odit animi vitae inventore vero nobis sit pariatur delectus.
+    </p>
+
+    <h2>Subtítulo do Exercício</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem fugiat consectetur earum saepe! Voluptas alias eligendi facilis quasi ratione sit deleniti non! Nam possimus ad minus provident officiis, fugit obcaecati?
+    </p>
+</body>
+</html>

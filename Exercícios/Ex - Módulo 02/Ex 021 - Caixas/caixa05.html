@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<hmtl lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.281);
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(82, 82, 82);
+            padding: 3px;
+            box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.39);
+            /*
+                Box-Shadow:
+                    1 - deslocamento-horizontal
+                    2 - Deslocamento-vertical
+                    3 - Densidade
+                    4 - Cor
+            */
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.349);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(107, 106, 106);
+            margin: 1px;
+        }
+
+        footer {
+            box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.281);
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grouping Tags Semânticas -->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Esporte, Política e Tecnologia</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur vero molestias quasi impedit, obcaecati repellat reprehenderit est? Modi ratione incidunt corporis, placeat dolores delectus quisquam unde id ullam nisi nemo!
+                </p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícica sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iste architecto inventore nobis excepturi dolor eius quibusdam quia! Voluptatum soluta odio id, optio dignissimos cupiditate. Ea pariatur unde repudiandae dicta.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Rodrigo Barboni Filho</p>
+                </aside>
+            </article>
+            <article>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo Barboni Filho</p>
+    </footer>
+</body>
+</html>

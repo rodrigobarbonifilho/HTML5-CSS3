@@ -1,0 +1,27 @@
+{
+	"html": {
+		"prefix": "!!",
+		"body": [
+			"<!DOCTYPE html>",
+			"<hmtl lang='pt-br'>",
+			"<head>",
+			"\t<meta charset='UTF-8'>",
+			"\t<meta http-equiv='X-UA-Compatible' content='IE=edge'>",
+			"\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+			"\t<title>${Document}</title>",
+			"</head>",
+			"<body>",
+			"",
+			"</body>",
+			"</html>"
+		],
+		"description": "Main html code pt-br"
+	},
+
+	// Snippet que faz documentação em CSS mais rápido
+	"Doc": {
+		"prefix": "/",
+		"body": "/*${0}*/",
+		"description": "Quickly Documentation",
+	}
+}
