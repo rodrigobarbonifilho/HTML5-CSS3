@@ -51,12 +51,12 @@ header > p {
 
 /* Main */
 div#image01 {
-    background-image: url("res/images/background001.jpg");
+    background-image: url("../res/images/background001.jpg");
     background-position: right center;
 }
 
 div#image02 {
-    background-image: url("res/images/background002.jpg");
+    background-image: url("../res/images/background002.jpg");
     background-position: bottom left;
 }
 
