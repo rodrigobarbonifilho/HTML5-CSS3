@@ -3,7 +3,7 @@
 		"prefix": "!!",
 		"body": [
 			"<!DOCTYPE html>",
-			"<hmtl lang='pt-br'>",
+			"<html lang='pt-br'>",
 			"<head>",
 			"\t<meta charset='UTF-8'>",
 			"\t<meta http-equiv='X-UA-Compatible' content='IE=edge'>",
