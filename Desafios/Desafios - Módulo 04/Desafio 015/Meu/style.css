@@ -9,7 +9,7 @@
 
 body {
 	display: flex;
-	background: url("images/fundo-madeira.jpg");
+	background: url("../images/fundo-madeira.jpg");
 	background-size: cover;
 	background-position: center bottom;
 	min-height: 100vh;
