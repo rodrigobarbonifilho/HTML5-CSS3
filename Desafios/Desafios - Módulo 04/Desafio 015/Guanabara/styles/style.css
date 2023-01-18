@@ -47,6 +47,10 @@ section#redes-sociais {
   text-align: right;
 }
 
+section#redes-sociais iframe {
+  
+}
+
 section#redes-sociais img {
   width: 50px;
   margin: 10px;
