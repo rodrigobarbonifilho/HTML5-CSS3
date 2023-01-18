@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top, rgb(99, 164, 255), rgb(132, 226, 255) 50%, rgb(99, 164, 255));
+  background-attachment: fixed;
+}
+
+section {
+  width: 80vw;
+  height: fit-content;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
