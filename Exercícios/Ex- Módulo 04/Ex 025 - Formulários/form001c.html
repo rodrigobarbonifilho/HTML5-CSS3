@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Primeiro Formulário</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!-- Métodos de Formulário -->
+  <!--
+    GET -> Deixa os dados do formulário na URL - Usado em dados não sensíveis * o GET tem um limite de 3000 bytes (3000 letras +/-)
+    POST -> Deixa os dados do formulário na "escondido" na rede caso ela não seja https - Usado com dados sensíveis
+  -->
+  <h1>Meu Primeiro Formulário</h1>
+  <form method="GET" action="cadastro.php" autocomplete="off">
+    <p>
+      <label for="inome">Nome:</label>
+      <input type="text" name="nome" id="inome"></p>
+    <p>
+      <label for="isobrenome">Sobrenome:</label> 
+      <input type="text" name="sobrenome" id="isobrenome">
+    </p>
+    <p><input type="submit" value="Enviar"></p>
+  </form>
+</body>
+</html>
