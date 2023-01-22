@@ -6,11 +6,13 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Media Query</title>
   <link rel="stylesheet" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
   <header>
     <h1>Meu Site</h1>
-    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+    <span id="burguer" class="material-symbols-outlined" onclick="toggleMenu() ">
       menu
     </span>
     <menu id="menu">
@@ -42,13 +44,8 @@
   </main>
 </body>
 <script>
-  function clickMenu() {
-    if (menu.style.display === "block") {
-      menu.style.display = "none"
-    } else {
-      menu.style.display = "block"
-    }
+  function toggleMenu() {
+    menu.classList.toggle("visible");
   }
 </script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </html>

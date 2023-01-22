@@ -38,6 +38,10 @@ menu {
   display: none;
 }
 
+menu.visible {
+  display: block;
+}
+
 menu > ul {
   list-style: none;
 }
